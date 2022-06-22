@@ -4,22 +4,22 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Build Step'
+                echo 'Build'
             }
         }
          stage('Test') {
             steps {
-                echo 'Test Step'
+                echo 'Test'
             }
         }
          stage('Deploy') {
             steps {
-                echo 'Deploy Step'
+                echo 'Deploy'
             }
         }
          stage('Docker') {
             steps {
-                echo 'Image Step'
+                echo 'Image'
             }
         }
     }
